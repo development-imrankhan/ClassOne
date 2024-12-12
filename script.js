@@ -106,7 +106,7 @@ async function demo(times) {
 
 async function demo1(time) {
     await sleep(time);
-    window.location.href = "/"
+    window.location.href = "/ClassOne"
 }
 
 
