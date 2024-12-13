@@ -144,6 +144,8 @@ if (waittig) {
 btn_start = document.querySelector("#start-btn")
 btn_stop = document.querySelector("#stop-btn")
 
+if (parseInt(sessionStorage.getItem("i")) > 0){demo(times);}
+
 btn_start.addEventListener("click", ()=>{stop = 0; 
                                          bar_right.style.transform = 'rotate(0deg)'
                                          bar_left.style.transform = 'rotate(0deg)'
